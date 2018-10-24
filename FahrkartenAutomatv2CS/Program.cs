@@ -56,7 +56,6 @@ namespace FahrkartenAutomatv2CS
                 default:
                     preis = 0.0;
                     break;
-
             }
             return preis;
         }
@@ -133,7 +132,6 @@ namespace FahrkartenAutomatv2CS
             Console.WriteLine(" 1 Cent x {0}", anzahl[7]);
             Console.WriteLine("Bitte entnehmen sie ihr Rueckgeld \n");
             return;
-        }
-        
+        }        
     }
 }
